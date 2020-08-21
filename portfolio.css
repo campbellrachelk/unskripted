@@ -1,0 +1,315 @@
+/* Doc Styles - Mobile First */
+
+html, body {
+  scroll-behavior: smooth;
+  background-image: linear-gradient(white, #185347)!important;
+}
+
+/* Block Styles */
+
+.textArea {
+	color: white;
+	margin-bottom:12rem;
+}
+footer {
+	padding:4rem;
+	border-top:2px solid white;
+	margin:5rem auto;
+	color:white;
+}
+.formField {
+	
+	margin:0 auto;
+	background-color:white;
+	padding:3rem;
+}
+
+.aboutMe {
+	margin:5rem .4rem .4rem;
+	padding-top:2rem;
+	color:white;
+
+
+}
+
+
+.description {
+	
+    padding: 13rem 1rem 9rem;
+}
+
+#arrowMobile #arrowDesktop {
+    color: #185347;
+    margin-top:5rem;
+    opacity: 0.7;
+    margin: 5rem auto 0;
+}
+
+#arrowDesktop {
+	display:none;
+}
+
+#arrowMobile {
+	display: inline-block;
+}
+
+hr {
+	max-width: 350px;
+	border-style:solid;
+	background-color: white;
+	opacity: 0.7;
+}
+
+img {
+	width:100%;
+	border: 1px solid ##185347;
+}
+
+
+
+/*Text Styles*/
+
+a {
+	text-decoration: none;
+    color: white;
+}
+
+.about {
+	text-align:right;
+	margin: 5rem 0;
+}
+
+body {
+	text-align: center;
+	margin:0;
+}
+
+.greyButton {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  margin-left:auto;
+  margin-right:1rem;
+  padding:.7rem;
+  font-family:'Raleway';
+  width:120px;
+}
+
+.greyButton:hover {background-color: #e7e7e7;}
+
+.container {
+	max-width: 97%;
+	margin:0 auto;
+}
+
+
+
+.form {
+	color:white;
+	font-family: 'Raleway', sans-serif;
+	max-width:92%;
+	font-size:1.2rem;
+	margin:auto;
+
+}
+
+form {
+	display:grid;
+	grid-template-columns:30% 70%;
+	grid-gap:15px;
+}
+
+.grid {
+	display: grid;
+
+	margin:auto;
+	max-width:600px;
+	text-align: left;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight:700;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.inquiry {
+	padding:4rem;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+li {
+	font-family: 'Raleway', sans-serif;
+	line-height:1.5;
+}
+
+.services {
+	color: white;
+	margin:.4rem;
+	padding:.4rem;
+
+	
+}
+
+.subtitle {
+	font-family: 'Vollkorn', 'Lato', sans-serif;
+	font-size:1.5rem;
+	font-weight:100;
+	text-shadow: 5px 5px 15px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.work {
+	font-size:.7rem;
+}
+
+.photos {
+	display:grid;
+	grid-template-columns: 1fr;
+	justify-items:center;
+
+}
+
+.photos img {
+	opacity:1.0;
+	border-radius: 50%;
+    margin: 1rem;
+    width: 250px;
+    height: 250px;
+}
+
+/* Media Query Tablet */
+
+@media only screen and (min-width: 600px) {
+	#arrowMobile #arrowDesktop {
+		margin-top:10rem;
+	}
+
+	h2 {
+		font-size: 3.5rem;
+		font-weight:100;
+	}
+
+	.container {
+	max-width: 1350px;
+	margin:0 auto;
+}
+
+.photos {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items:center;
+}
+
+.photos img {
+	width: 250px;
+    height: 250px;
+    opacity: 0.5;
+    transition-duration:.3s;
+}
+
+.photos img:hover {
+	opacity:1.0;
+}
+
+
+	#arrowMobile {
+		display:none;
+	}
+
+	#arrowDesktop {
+		display:block;
+		margin: 5rem auto 0;
+	}
+
+	.form {
+		color:white;
+		font-family: 'Raleway', sans-serif;
+		font-size:1.5rem;
+		max-width:700px;
+		margin:0 auto 8rem;
+		background-color: #437369;
+		border-radius:10px;
+	}
+
+	.greyButton {
+		width:37%;
+		border-radius:13px;
+	}
+	.greybutton:hover {
+		background-color:grey;
+		cursor:pointer;
+	}
+
+}
+
+
+/* Media Query Desktop */
+
+@media only screen and (min-width: 900px) {
+
+	.aboutMe {
+		margin: 0 5rem 0 5rem;
+		padding:5rem;
+		border: 1px solid white;
+	}
+
+	.textArea {
+		max-width: 680px;
+		margin:auto;
+		padding-bottom:10rem;
+}
+
+	.blend {
+		padding:10rem;
+	}
+
+	.description {
+		padding: 7rem 0 30rem; 
+	
+	}
+
+	.grid {
+		grid-template-columns:1fr 1fr;
+		padding-top:2rem;
+}
+
+	#arrowMobile #arrowDesktop {
+		margin-top:4rem;
+	}
+
+	img {
+		width: 79%;
+	}
+
+	h1 {
+		font-size: 9.5rem;
+		text-align:left;
+	}
+
+	.services {
+		margin:5rem;
+		padding:0 2rem 10rem;
+	
+	}
+	.welcome {
+		margin:3rem;
+	}
+}
