@@ -2,20 +2,21 @@
 
 html, body {
   scroll-behavior: smooth;
-  background-image: linear-gradient(white, #185347)!important;
+
 }
+
 
 /* Block Styles */
-
-.textArea {
-	color: white;
-	margin-bottom:12rem;
+.logo {
+	max-width:400px;
 }
+
 footer {
-	padding:4rem;
+	padding:9rem 0;
 	border-top:2px solid white;
-	margin:5rem auto;
-	color:white;
+	background-color:#f2f2f2;
+
+	/*color:white;*/
 }
 .formField {
 	
@@ -25,17 +26,17 @@ footer {
 }
 
 .aboutMe {
-	margin:5rem .4rem .4rem;
-	padding-top:2rem;
-	color:white;
-
+	padding:.7rem;
+	margin-top:.5rem;
+	/*color:white;*/
+	border-top: 16px #e8b53c solid;
+	background-image:url(flowers.jpg);
 
 }
 
-
-.description {
-	
-    padding: 13rem 1rem 9rem;
+.navbar {
+	background-color:white;
+/*	border-bottom:6px double black;*/
 }
 
 #arrowMobile #arrowDesktop {
@@ -55,8 +56,8 @@ footer {
 
 hr {
 	max-width: 350px;
+	margin-top:2.5rem;
 	border-style:solid;
-	background-color: white;
 	opacity: 0.7;
 }
 
@@ -71,12 +72,20 @@ img {
 
 a {
 	text-decoration: none;
-    color: white;
+    /*color: white;*/
 }
 
+
+	.aboutMeBaby {
+		background-color:#f1f1f1e8;
+		padding:2rem;
+	}
+
+.about p {
+    text-align: right;
+}
 .about {
-	text-align:right;
-	margin: 5rem 0;
+	    margin: 2rem auto;
 }
 
 body {
@@ -84,14 +93,17 @@ body {
 	margin:0;
 }
 
+button {
+	margin:2rem;
+}
+
 .greyButton {
-  background-color: white;
+  background-/*color: white;*/
   color: black;
   border: 2px solid #e7e7e7;
   margin-left:auto;
   margin-right:1rem;
   padding:.7rem;
-  font-family:'Raleway';
   width:120px;
 }
 
@@ -105,8 +117,7 @@ body {
 
 
 .form {
-	color:white;
-	font-family: 'Raleway', sans-serif;
+	/*color:white;*/
 	max-width:92%;
 	font-size:1.2rem;
 	margin:auto;
@@ -115,27 +126,32 @@ body {
 
 form {
 	display:grid;
-	grid-template-columns:30% 70%;
 	grid-gap:15px;
+	max-width:1000px;
+	margin:0 auto;
 }
 
 .grid {
 	display: grid;
-
+	background-color: #e8b53c;
+	background-color:#7e7e7e;
 	margin:auto;
-	max-width:600px;
 	text-align: left;
+	color:white;
 }
 
 h1 {
-	font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     font-weight:700;
 }
 h2 {
-    font-family: 'Raleway', sans-serif;
     font-size: 1.5rem;
     font-weight: 900;
+    padding:1rem;
+}
+
+h3 {
+	margin:1.5rem auto 0;
 }
 
 .inquiry {
@@ -147,29 +163,25 @@ input[type=text]:focus {
 }
 
 p {
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 1.1rem;
 }
 
-li {
-	font-family: 'Raleway', sans-serif;
-	line-height:1.5;
-}
-
 .services {
-	color: white;
-	margin:.4rem;
+	/*color: white;*/
 	padding:.4rem;
+	background-color:#f2f2f2;
 
 	
 }
-
+.skills, .servicesContent {
+	padding:2rem;
+}
 .subtitle {
-	font-family: 'Vollkorn', 'Lato', sans-serif;
-	font-size:1.5rem;
+	font-size:1rem;
 	font-weight:100;
-	text-shadow: 5px 5px 15px;
+	text-align:center;
+	color:#7DACA3;
 }
 
 ul {
@@ -184,15 +196,21 @@ ul {
 	display:grid;
 	grid-template-columns: 1fr;
 	justify-items:center;
+	    background-color:#f1f1f1e8;
+	    padding:1rem;
 
 }
 
 .photos img {
 	opacity:1.0;
 	border-radius: 50%;
-    margin: 1rem;
     width: 250px;
     height: 250px;
+}
+
+.welcome {
+	text-align:center;
+	font-family:serif;
 }
 
 /* Media Query Tablet */
@@ -213,22 +231,23 @@ ul {
 }
 
 .photos {
-	display:grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	justify-items:center;
+    grid-template-columns: 1fr 200px 1fr;
+    padding:5rem;
 }
 
 .photos img {
 	width: 250px;
     height: 250px;
-    opacity: 0.5;
-    transition-duration:.3s;
+/*    opacity: 0.5;
+*/    transition-duration:.3s;
 }
 
 .photos img:hover {
 	opacity:1.0;
 }
-
+.skills, .servicesContent {
+	padding:4rem;
+}
 
 	#arrowMobile {
 		display:none;
@@ -240,8 +259,7 @@ ul {
 	}
 
 	.form {
-		color:white;
-		font-family: 'Raleway', sans-serif;
+		/*color:white;*/
 		font-size:1.5rem;
 		max-width:700px;
 		margin:0 auto 8rem;
@@ -266,29 +284,24 @@ ul {
 @media only screen and (min-width: 900px) {
 
 	.aboutMe {
-		margin: 0 5rem 0 5rem;
+		margin: 1rem 0 0rem;
 		padding:5rem;
-		border: 1px solid white;
 	}
+
 
 	.textArea {
 		max-width: 680px;
 		margin:auto;
-		padding-bottom:10rem;
 }
 
 	.blend {
 		padding:10rem;
 	}
 
-	.description {
-		padding: 7rem 0 30rem; 
-	
-	}
 
 	.grid {
 		grid-template-columns:1fr 1fr;
-		padding-top:2rem;
+	    padding: 5rem 0;
 }
 
 	#arrowMobile #arrowDesktop {
@@ -305,11 +318,9 @@ ul {
 	}
 
 	.services {
-		margin:5rem;
-		padding:0 2rem 10rem;
-	
+		padding:1rem 9rem;	
 	}
 	.welcome {
-		margin:3rem;
+		margin:3rem 3rem 1rem;
 	}
 }
