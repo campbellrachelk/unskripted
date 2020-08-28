@@ -31,6 +31,7 @@ footer {
 	/*color:white;*/
 	border-top: 16px #007f70 solid;
 	background-image:url(unskrip.jpg);
+	color:white;
 
 }
 
@@ -155,12 +156,10 @@ form {
 
 .grid {
 	display: grid;
-	background-color: #007f70;
-	background-color:#7e7e7e;
 	margin:auto;
 	padding-bottom:5rem;
 	text-align: center;
-	color:white;
+
 }
 
 .grid h3 {
@@ -207,7 +206,8 @@ p {
 .services {
 	padding:5rem .4rem 3rem;
 /*	background-color:#f2f2f2;*/
-background-image: url(unskrip.jpg);
+background-image: url(unskrip3.jpg);
+color:white;
 	
 }
 .skills, .servicesContent {
@@ -269,7 +269,7 @@ ul {
 	}
 
 	.aboutMe {
-		background-image: url(unskrip.jpg);
+		background-image: url(unskrip2.jpg);
 	}
 
 		.aboutMeBaby {
