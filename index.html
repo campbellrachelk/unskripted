@@ -4,6 +4,9 @@
 <head>
 	<title>Creative Web Design</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Montserrat&family=Space+Mono&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" type="text/css" href="./portfolio.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -31,7 +34,7 @@
         </li>
         
         <li class="nav-item">
-          <a class="nav-link" href="#">Services</a>
+          <a class="nav-link" href="#services">Services</a>
         </li>
         
         <li class="nav-item">
@@ -39,7 +42,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="#">Get in Touch</a>
+          <a class="nav-link" href="#contact">Get in Touch</a>
         </li>
 
       </ul>
@@ -54,7 +57,7 @@
       	<h1 class="welcome">Welcome.</h1>
 
       	<section class="about">
-          <h4>Let's face it - In 2019, there are a <em>lot</em> of options for consumers...</h4>
+          <h4>Let's face it. In 2019, there are a <em>lot</em> of options for consumers...</h4>
       		<p>Here at Unskripted, we are passionate about helping people like you cultivate your dream.</p>
       		
       		<p>More and more, people rely on the internet to help them choose where to spend their money.</p>
@@ -69,9 +72,9 @@
       </div>
     </article>
 
-    <article class="grid" role="main">
+    <article class="grid" role="main" id="services">
     	<div class="servicesContent">
-    		<h3><strong>Custom Website Development</strong></h3>
+    		<h3>Custom Website Development<hr style="max-width:70px; background-color:white; margin:1rem auto .5rem"></h3>
         
         <p>Custom Web Design gives you top SEO performance, speed optimization, and full creative control on the end product.</p>
 
@@ -79,7 +82,7 @@
     	</div>
 
     	<div class="skills">
-    		<h3><strong>WordPress and Website Management</strong></h3>
+    		<h3>WordPress and Website Management<hr style="max-width:70px; background-color:white; margin:1rem auto .5rem"></h3>
         <p>Want something a little more cut-and-dry? We also offer WordPress website development and website maintenance.</p>
     	</div>
     </article>
@@ -98,7 +101,7 @@
       <hr>
     </article>
 
-    <section class="formField">
+    <section class="formField" id="contact">
      <h4>Contact Us</h4>
       <form class="formInnter" method="POST" name="myemailform" action="form-to-email.php">
 
@@ -128,8 +131,8 @@
      </div>
 
       <div class="form-group row" style="margin:0 auto;">
-      <div class="col-sm-6" style="text-align:right;">Preferred Contact Method</div>
-      <div class="col-sm-6" style="text-align:left;">
+      <div class="col-sm-6">Preferred Contact Method</div>
+      <div class="col-sm-6">
         <div class="form-check" style="display:inline-block; margin:auto 1rem">
           <input class="form-check-input" name="preferredPhone" type="checkbox" id="gridCheck1">
           <label class="form-check-label" for="gridCheck1">

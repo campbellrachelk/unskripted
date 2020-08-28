@@ -2,6 +2,7 @@
 
 html, body {
   scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -77,8 +78,14 @@ a {
 
 	.aboutMeBaby {
 		background-color:#f1f1f1e8;
-		padding:1.2rem .5rem;
+		padding:2.2rem .5rem 1.2rem;
 		max-width:100%;
+		text-align:center;
+	}
+
+	.aboutMeBaby h1 {
+		margin: 2rem auto;
+		font-size:3rem;
 	}
 
 .about p {
@@ -89,7 +96,7 @@ a {
 }
 .about {
 	    margin: 2rem auto;
-	    padding:10px;
+	    padding:0 2px 10px;
 }
 
 .about h3 {
@@ -151,6 +158,8 @@ form {
 
 .grid h3 {
 padding:9px;
+margin:1.5rem auto .5rem;
+font-size:1.75rem;
 }
 
 h1 {
@@ -165,6 +174,14 @@ h2 {
 
 h3 {
 	margin:1.5rem auto;
+}
+
+.about h3 {
+	font-family:'Montserrat', sans-serif;
+}
+
+.aboutMeBaby h1, h2, h3 {
+	font-family: 'Major Mono Display', monospace;
 }
 
 .inquiry {
@@ -188,7 +205,7 @@ p {
 	
 }
 .skills, .servicesContent {
-	padding:2rem 2rem 0;
+	padding:2rem 1rem 0;
 }
 
 
@@ -245,6 +262,11 @@ ul {
 		max-width:100%;
 	}
 
+		.aboutMeBaby h1 {
+		margin: 2rem auto;
+		font-size:4rem;
+	}
+
 	h2 {
 		font-size: 3.5rem;
 		font-weight:100;
@@ -253,6 +275,10 @@ ul {
 	.container {
 	max-width: 1350px;
 	margin:0 auto;
+}
+
+.grid h3 {
+	font-size:2.2rem;
 }
 .logo {
 	max-width:400px;
@@ -329,7 +355,7 @@ ul {
 
 	.grid {
 		grid-template-columns:1fr 1fr;
-	    padding: 5rem 0;
+	    padding: 4rem 0 5rem;
 }
 
 	#arrowMobile #arrowDesktop {
