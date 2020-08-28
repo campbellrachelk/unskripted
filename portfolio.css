@@ -25,7 +25,7 @@ footer {
 }
 
 .aboutMe {
-	padding:.7rem;
+	padding:.7rem 0;
 	margin-top:.5rem;
 	/*color:white;*/
 	border-top: 16px #e8b53c solid;
@@ -77,14 +77,23 @@ a {
 
 	.aboutMeBaby {
 		background-color:#f1f1f1e8;
-		padding:2rem;
+		padding:1.2rem .5rem;
+		max-width:100%;
 	}
 
 .about p {
-    text-align: right;
+    text-align: center;
+}
+.about h4 {
+	margin:1.1rem auto;
 }
 .about {
 	    margin: 2rem auto;
+	    padding:10px;
+}
+
+.about h3 {
+	margin:2.5rem auto 0;
 }
 
 body {
@@ -135,8 +144,13 @@ form {
 	background-color: #e8b53c;
 	background-color:#7e7e7e;
 	margin:auto;
-	text-align: left;
+	padding-bottom:5rem;
+	text-align: center;
 	color:white;
+}
+
+.grid h3 {
+padding:9px;
 }
 
 h1 {
@@ -150,7 +164,7 @@ h2 {
 }
 
 h3 {
-	margin:1.5rem auto 0;
+	margin:1.5rem auto;
 }
 
 .inquiry {
@@ -174,8 +188,10 @@ p {
 	
 }
 .skills, .servicesContent {
-	padding:2rem;
+	padding:2rem 2rem 0;
 }
+
+
 .subtitle {
 	font-size:1rem;
 	font-weight:100;
@@ -221,6 +237,12 @@ ul {
 
 	.aboutMe {
 		background-image: url(flowers.jpg);
+	}
+
+		.aboutMeBaby {
+		background-color:#f1f1f1e8;
+		padding:2rem;
+		max-width:100%;
 	}
 
 	h2 {
