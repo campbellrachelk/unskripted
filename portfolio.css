@@ -111,7 +111,14 @@ body {
 button {
 	margin:2rem;
 }
-
+.navbar-toggler {
+	margin:.5rem;
+}
+.logoBlock {
+	margin-top:.5rem;
+	max-width:70%;
+	float:right;
+}
 .greyButton {
   background-/*color: white;*/
   color: black;
@@ -248,6 +255,16 @@ ul {
 /* Media Query Tablet */
 
 @media only screen and (min-width: 600px) {
+.navbar-toggler {
+	margin:.5rem;
+}
+.logoBlock {
+	margin-top:.5rem;
+	max-width:70%;
+	float:none;
+}
+
+
 	#arrowMobile #arrowDesktop {
 		margin-top:10rem;
 	}
