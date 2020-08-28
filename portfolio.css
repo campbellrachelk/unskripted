@@ -14,7 +14,7 @@ html, body {
 
 footer {
 	padding:9rem 0;
-	border-top: 16px #e8b53c solid;
+	border-top: 16px #007f70 solid;
 	background-color:#f2f2f2;
 
 	/*color:white;*/
@@ -29,7 +29,7 @@ footer {
 	padding:.7rem 0;
 	margin-top:.5rem;
 	/*color:white;*/
-	border-top: 16px #e8b53c solid;
+	border-top: 16px #007f70 solid;
 	background-image:url(unskrip.jpg);
 
 }
@@ -155,7 +155,7 @@ form {
 
 .grid {
 	display: grid;
-	background-color: #e8b53c;
+	background-color: #007f70;
 	background-color:#7e7e7e;
 	margin:auto;
 	padding-bottom:5rem;
