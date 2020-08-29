@@ -13,11 +13,16 @@ html, body {
 }
 
 footer {
-	padding:9rem 0;
 	border-top: 16px black solid;
-	background-color:#f2f2f2;
+	background-image:url(version3.jpg);
 
-	/*color:white;*/
+}
+
+.footer {
+			background-color:#232323cf;
+			color:white;
+				padding:10rem 0;
+
 }
 .formField {
 	margin:0 auto;
@@ -78,17 +83,28 @@ a {
 
 .services section {
 background-color: #232323f5;
-    border-radius: 10px;
-    padding:6rem .5rem 2rem;
+    padding:5rem .5rem 2rem;
 }
 	.aboutMeBaby {
+	margin:2rem auto 5rem;
+	background-color: #232323f5;
 
-background-color: #232323f5;
-    border-radius: 10px;
+	/* background: hsl(0,100%,50%);
+  	animation: redred 10000ms 0ms infinite linear;*/
 		padding:2.2rem .5rem 1.2rem;
 		max-width:100%;
 		text-align:center;
-	}
+
+}
+@keyframes redred {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
 
 	.aboutMeBaby h1 {
 		margin: 2rem auto;
@@ -138,10 +154,7 @@ button {
 
 .greyButton:hover {background-color: #e7e7e7;}
 
-.container {
-	max-width: 97%;
-	margin:0 auto;
-}
+
 
 
 
@@ -162,8 +175,7 @@ form {
 
 .grid {
 	display: grid;
-	margin:auto;
-	padding-bottom:5rem;
+	margin:2rem auto;
 	text-align: center;
 
 }
@@ -210,14 +222,16 @@ p {
 }
 
 .services {
-	padding:5rem .4rem 3rem;
+	padding:6rem .4rem 5rem;
 /*	background-color:#f2f2f2;*/
 background-image: url(version3.jpg);
 color:white;
 	
 }
 .skills, .servicesContent {
-	padding:2rem 1rem 0;
+	padding:0 .2rem 1rem ;
+	border: #634ac8f0 inset 8px;
+    margin: 1rem .5rem;
 }
 
 
@@ -274,14 +288,9 @@ ul {
 		margin-top:10rem;
 	}
 
-	.aboutMe {
-		background-image: url(version2.jpg);
-	}
-
 		.aboutMeBaby {
-		
-		padding:2rem;
-		max-width:100%;
+	margin:0 auto;
+		padding:2rem 2rem .5rem;
 	}
 
 		.aboutMeBaby h1 {
@@ -294,10 +303,7 @@ ul {
 		font-weight:100;
 	}
 
-	.container {
-	max-width: 950px;
-	margin:0 auto;
-}
+
 
 .grid h3 {
 	font-size:2.2rem;
@@ -362,7 +368,7 @@ ul {
 
 	.aboutMe {
 		margin: 1rem 0 0rem;
-		padding:5rem;
+		padding:8rem 0;
 	}
 
 
@@ -395,7 +401,7 @@ ul {
 	}
 
 	.services {
-		padding:5rem 9rem;	
+		padding:5rem 0;	
 	}
 	.welcome {
 		margin:3rem 3rem 1rem;
