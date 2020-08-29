@@ -14,7 +14,7 @@ html, body {
 
 footer {
 	padding:9rem 0;
-	border-top: 16px #007f70 solid;
+	border-top: 16px black solid;
 	background-color:#f2f2f2;
 
 	/*color:white;*/
@@ -29,8 +29,8 @@ footer {
 	padding:.7rem 0;
 	margin-top:.5rem;
 	/*color:white;*/
-	border-top: 16px #007f70 solid;
-	background-image:url(unskrip2.jpg);
+	border-top: 16px black solid;
+	background-image:url(version2.jpg);
 	color:white;
 
 }
@@ -76,9 +76,15 @@ a {
     /*color: white;*/
 }
 
-
+.services section {
+background-color: #232323f5;
+    border-radius: 10px;
+    padding:6rem .5rem 2rem;
+}
 	.aboutMeBaby {
-		
+
+background-color: #232323f5;
+    border-radius: 10px;
 		padding:2.2rem .5rem 1.2rem;
 		max-width:100%;
 		text-align:center;
@@ -206,7 +212,7 @@ p {
 .services {
 	padding:5rem .4rem 3rem;
 /*	background-color:#f2f2f2;*/
-background-image: url(unskrip3.jpg);
+background-image: url(version3.jpg);
 color:white;
 	
 }
@@ -269,7 +275,7 @@ ul {
 	}
 
 	.aboutMe {
-		background-image: url(unskrip2.jpg);
+		background-image: url(version2.jpg);
 	}
 
 		.aboutMeBaby {
@@ -289,7 +295,7 @@ ul {
 	}
 
 	.container {
-	max-width: 1350px;
+	max-width: 950px;
 	margin:0 auto;
 }
 
@@ -316,8 +322,9 @@ ul {
 	opacity:1.0;
 }
 .skills, .servicesContent {
-	padding:4rem;
-}
+    padding: 3rem;
+    border: #634ac8f0 inset 8px;
+    margin: 3rem;}
 
 	#arrowMobile {
 		display:none;
